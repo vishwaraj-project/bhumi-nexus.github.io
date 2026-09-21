@@ -1,0 +1,26 @@
+/* Map container responsive styling */
+#map {
+    height: 100% !important;
+    width: 100% !important;
+    min-height: 400px;
+    background-color: #e3ebe3;
+}
+
+/* Custom Earth Theme Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f7f2e8;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c7d7c7;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2d6a4f;
+}
